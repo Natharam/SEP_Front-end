@@ -24,6 +24,14 @@ article p {
     padding: 20px;
 }
 
+#example2 {
+    border: 20px solid black;
+    padding: 250px;
+    background: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: 1320px 1200px;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -167,7 +175,7 @@ h2.large {
 
 div.box {
     text-align: center;
-    margin: 24px;
+    margin: 28px;
     padding: 36px 24px 40px 24px;
     border-radius: 7px;
     background-color: white;
@@ -186,7 +194,19 @@ div.box {
     
 }
 
-div.icon {
+div.icon1 {
+    height: 130px;
+    width: 100%;
+}
+
+div.icon2 {
+    height: 154px;
+    width: 100%;
+}
+ 
+
+div.icon3 {
+    height: 220px;
     width: 100%;
 }
 
