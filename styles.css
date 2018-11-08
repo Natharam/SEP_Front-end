@@ -24,12 +24,63 @@ article p {
     padding: 20px;
 }
 
+#myBtn1 {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 8%%;
+        left: 92%;
+        max-width: 80px;
+        height: 40px;
+        width: 100%;
+        font-size: 22px;
+        border-color: rgba(85, 85, 85, 0.2);
+        background-color: rgb(100,100,100);
+        padding: .5px;
+        border-radius: 4px;
+
+    }
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: #7dbbf1;
+    }
+
 #example2 {
     border: 20px solid black;
     padding: 250px;
-    background: url(download.jpg);
+    background: url(cust3.jpg);
     background-repeat: no-repeat;
-    background-size: 1320px 1200px;
+    background-size: cover;
+}
+
+#example3 {
+  background-image: url("menu1.jpg"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#example4 {
+  background-image: url("cc.jpg"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#example5 {
+  background-image: url("bb.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+   /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#example6 {
+  background-image: url("feedback1.jpg"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .container {
